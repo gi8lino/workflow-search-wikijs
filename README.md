@@ -2,6 +2,10 @@
 
 [Alfred](https://www.alfredapp.com) workflow to search articles of your [wikijs](https://js.wiki).
 
+## requirements
+
+- [jq](https://github.com/stedolan/jq)
+
 ## variables
 
 When importing this workflow, you have to set the following variables:
