@@ -2,6 +2,11 @@
 
 [Alfred](https://www.alfredapp.com) workflow to search articles of your [wikijs](https://js.wiki).
 
+## usage
+
+Press "w" followed by the text, you want to search in your wikijs.  
+Press "command" to show the article description.
+
 ## requirements
 
 - [jq](https://github.com/stedolan/jq)
