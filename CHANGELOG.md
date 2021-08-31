@@ -2,11 +2,13 @@
 
 ## [v1.1.0](https://github.com/gi8lino/workflow-search-wikijs) (2021-08-31)
 
-feature:
+[All Commits](https://github.com/gi8lino/workflow-search-wikijs/compare/v1.0.0...v1.1.0)
+
+**feature:**
 
 - press "cmd" to show article description
 
-Improvements:
+**Improvements:**
 
 - optimize jq output
 
