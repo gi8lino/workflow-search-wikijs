@@ -5,7 +5,7 @@
 ## usage
 
 Press "w" followed by the text, you want to search in your wikijs.  
-Press "command" to show the article description.
+Press "command" to show the path to the article.
 
 ## requirements
 
