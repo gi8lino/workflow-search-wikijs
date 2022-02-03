@@ -1,24 +1,20 @@
 ---
-name: publish
+name: "tagged-release"
 
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  tagged-release:
+    name: "Tagged Release"
+    runs-on: "ubuntu-latest"
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          fetch-depth: 0
-      - name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v2
-        if: success() && startsWith(github.ref, 'refs/tags/')
-        with:
-          version: latest
-          args: release --rm-dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            *.alfredworkflow
