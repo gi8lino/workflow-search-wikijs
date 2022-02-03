@@ -1,6 +1,6 @@
 # Alfred workflow - search wikijs
 
-[Alfred](https://www.alfredapp.com) workflow to search articles of your [wikijs](https://js.wiki).
+[Alfred](https://www.alfredapp.com) workflow to search articles on your [wikijs](https://js.wiki).
 
 ## usage
 
